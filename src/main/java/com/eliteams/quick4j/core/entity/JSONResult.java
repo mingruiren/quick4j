@@ -38,7 +38,7 @@ public class JSONResult<T> extends Result {
      * @param success
      */
     public JSONResult(T data, String message, boolean success) {
-        this.data = data;
+         this.data = data;
         super.setMessage(message);
         super.setSuccess(success);
     }
